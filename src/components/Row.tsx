@@ -21,7 +21,6 @@ export const Row = ({ title, fetchUrl, isLargeRow }: RowProps) => {
     fetchData();
   }, [fetchUrl]);
 
-  console.table(movies);
   return (
     <div className="row">
       <h2>{title}</h2>
