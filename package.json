@@ -7,13 +7,14 @@
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^27.0.1",
-    "@types/node": "^16.7.13",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
     "firebase": "^9.6.7",
+    "movie-trailer": "^2.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "react-youtube": "^7.14.0",
     "sass": "^1.49.8",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
@@ -41,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18"
   }
 }
